@@ -7,6 +7,9 @@
 #define GLOBAL_ASM(...)
 #endif
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wmissing-braces"
+
 #if !defined(__sgi) && (!defined(NON_MATCHING) || !defined(AVOID_UB))
 // asm-process isn't supported outside of IDO, and undefined behavior causes
 // crashes.
