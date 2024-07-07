@@ -58,6 +58,16 @@ typedef u8 Texture;
 #define AnimeRecord static const struct Animation
 #define AnimePtr const struct Animation *const
 
+#define	MARIO_HEIGHT			189
+#define	MAP_ANIM_NORMAL			0x00
+#define	MAP_ANIM_ONETIME		0x01
+#define	MAP_ANIM_REVERSE		0x02
+#define	MAP_ANIM_FREEZE			0x04
+#define	MAP_ANIM_TRVERTI		0x08
+#define	MAP_ANIM_TRPLANE		0x10
+#define	MAP_ANIM_FIXSHADOW		0x20
+#define	MAP_ANIM_NOTRANS		0x40
+
 enum SpTaskState {
     SPTASK_STATE_NOT_STARTED,
     SPTASK_STATE_RUNNING,
