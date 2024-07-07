@@ -1,3 +1,15 @@
+# Xerox's Beta Gigaleak Template
+
+- This repo is Xerox's Beta Gigaleak Template that will be used for his future hacks.
+
+- It can be used for converting most gigaleak code to decomp code.
+
+## Credits
+
+***Xerox***
+
+***AmitabhTechz (cursedUs64-git)***
+
 # Super Mario 64
 
 - This repo contains a full decompilation of Super Mario 64 of the following releases: Japan (jp), North America (us), Europe (eu), and Shindou (sh).
