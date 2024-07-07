@@ -73,9 +73,9 @@
 #endif
 
 // defined light and scale for ShapeColor()
-#define LIGHT_X 48
-#define LIGHT_Y 48
-#define LIGHT_Z 48
+#define LIGHT_X 40
+#define LIGHT_Y 40
+#define LIGHT_Z 40
 // Scale
 #define SCALE 2
 #define	C_SCALE	4
