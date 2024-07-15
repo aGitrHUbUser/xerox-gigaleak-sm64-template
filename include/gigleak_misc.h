@@ -19,3 +19,6 @@
 #define CtrlMarioAlpha                  geo_mirror_mario_set_alpha
 #define CtrlMarioLOD                    geo_switch_mario_stand_run
 #define CtrlMarioRenderMode             geo_switch_mario_cap_effect
+#define AlphaControl                    geo_update_layer_transparency
+#define ControlShapeAnime               geo_switch_anim_state
+#define ControlSwitchMap                geo_switch_area  
